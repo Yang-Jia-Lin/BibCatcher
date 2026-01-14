@@ -1,0 +1,20 @@
+[27] xAI, "Grok-1." Mar. 2024. [Online]. Available: [https://github.com/xai-org/grok-1](https://github.com/xai-org/grok-1)
+[29] S. A. R. Team, "Snowflake arctic: The best LLM for enterprise Al Efficiently intelligent, truly open." Apr. 2024. [Online]. Available: [https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/](https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/)
+[27] xAI, "Grok-1." Mar. 2024. [Online]. Available: [https://github.com/xai-org/grok-1](https://github.com/xai-org/grok-1)
+[29] S. A. R. Team, "Snowflake Arctic: The best LLM for enterprise AI—efficiently intelligent, truly open" Apr. 2024. [Online]. Available: [https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/](https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/)
+[27] xAI, "Grok-1." Mar. 2024. [Online]. Available: [https://github.com/xai-org/grok-1](https://github.com/xai-org/grok-1)
+[29] S. A. R. Team, "Snowflake Arctic: The best LLM for enterprise AI—efficiently intelligent, truly open" Apr. 2024. [Online]. Available: [https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/](https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/)
+[54] S. Antoniak et al., "Mixture of tokens: Efficient LLMs through cross-example aggregation," 2023, arXiv: 2310.15961.
+[64] S. Rajbhandari et al., "DeepSpeed-MoE: Advancing mixture-of-experts inference and training to power next-generation Al scale," in Proc. 39th Int. Conf. Mach. Learn., 2022, pp. 18332-18346.
+[27] xAI, "Grok-1." Mar. 2024. [Online]. Available: [https://github.com/xai-org/grok-1](https://github.com/xai-org/grok-1)
+[71] Y. Shen, Z. Zhang, T. Cao, S. Tan, Z. Chen, and C. Gan, "ModuleFormer: Learning modular large language models from uncurated data," 2023. arXiv:2306.04640.
+[27] xAI, "Grok-1." Mar. 2024. [Online]. Available: [https://github.com/xai-org/grok-1](https://github.com/xai-org/grok-1)
+[71] Y. Shen, Z. Zhang, T. Cao, S. Tan, Z. Chen, and C. Gan, "ModuleFormer: Learning modular large language models from uncurated data," 2023. arXiv:2306.04640.
+[27] xAI, "Grok-1." Mar. 2024. [Online]. Available: [https://github.com/xai-org/grok-1](https://github.com/xai-org/grok-1)
+[71] Y. Shen, Z. Zhang, T. Cao, S. Tan, Z. Chen, and C. Gan, "ModuleFormer: Learning modular large language models from uncurated data," 2023. arXiv:2306.04640.
+[84] X. Ren et al., "PanGu-Σ: Towards trillion parameter language model with sparse heterogeneous computing." 2023, arXiv: 2303.10845.
+[87] D. H. Dat, P. Y. Mao, T. H. Nguyen, W. Buntine, and M. Bennamoun, "HOMOE: A memory-based and composition-aware framework for zero-shot learning with hopfield network and soft mixture of experts." 2023. arXiv:2311.14747.
+[92] S. Diao, T. Xu, R. Xu, J. Wang, and T. Zhang, "Mixture-of-domain-Adapters: Decoupling and injecting domain knowledge to pre-trained language models' memories," in Proc. 61st Annu. Meeting Assoc. Comput. Linguistics, 2023, pp. 5113-5129.
+[93] D. Li et al., "MixLORA: Enhancing large language models fine-tuning with LORA based mixture of experts," 2024, arXiv: 2404.15151.
+[98] Y. Liu et al., "Intuition-aware mixture-of-rank-1-experts for parameter efficient finetuning," 2024, arXiv:2404.08985.
+[106] L.. Shen et al., "SE-MoE: A scalable and efficient mixture-of-experts distributed training and inference system," 2022, arXiv:2205.10034.

@@ -1,0 +1,16 @@
+cidx,citekey,title
+1,zhang2024edgeshard,Edgeshard: Efficient llm inference via collaborative edge computing
+2,ye2024galaxy,Galaxy: A resource-efficient collaborative edge ai system for in-situ transformer inference
+3,xu2024device,On-device language models: A comprehensive review
+4,minaee2024large,Large language models: A survey
+5,shen2025will,Will llms scaling hit the wall? breaking barriers via distributed resources on massive edge devices
+6,zheng2025review,"A review on edge large language models: Design, execution, and applications"
+7,yi2023edgemoe,Edgemoe: Fast on-device inference of moe-based large language models
+8,xue2024wdmoe,Wdmoe: Wireless distributed large language models with mixture of experts
+9,dai2024high,High-speed data communication with advanced networks in large language model training
+10,hu2024rdma,RDMA transports in datacenter networks: survey
+11,xu2023llmcad,Llmcad: Fast and scalable on-device large language model inference
+12,qu2025mobile,Mobile edge intelligence for large language models: A contemporary survey
+13,zhang2025communication,Communication-efficient distributed on-device llm inference over wireless networks
+14,hosseinzadeh2025dilemma,DILEMMA: Joint LLM Quantization and Distributed LLM Inference Over Edge Computing Systems
+15,jin2025moe,MoE $\^{} 2$: Optimizing Collaborative Inference for Edge Large Language Models

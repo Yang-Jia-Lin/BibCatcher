@@ -1,0 +1,6 @@
+[2] S. Ye et al., “Galaxy: A Resource-Efficient Collaborative Edge AI systems for In-Situ Transformer Inference,” IEEE INFOCOM, 2024, pp. 1–10.
+[5] T. Shen et al., “Will LLMs Scaling Hit the Wall? Breading Barriers via Distributed Resources on Massive Edge Devices,” arXiv preprint, arXiv: 2503.08223, 2025, pp. 1–23.
+[10] J. Hu et al., “RDMA Transports in Datacenter Networks: A survey,” IEEE Network, vol. 38, no. 6, 2024, pp. 380–87.
+[15] “MoE2: Optimizing Collaborative Inference for Edge Large Language Models,” arXiv preprint, arXiv: 2501.09410, 2025, pp. 1–15.
+[2] S. Ye et al., “Galaxy: A Resource-Efficient Collaborative Edge AI systems for In-Situ Transformer Inference” IEEE INFOCOM, 2024, pp. 1–10.
+[10] J. Hu et al., “RDMA Transports in Datacenter Networks: A survey” IEEE Network, vol. 38, no. 6, 2024, pp. 380–87.

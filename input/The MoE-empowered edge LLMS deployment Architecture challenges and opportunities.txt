@@ -1,0 +1,15 @@
+[1] M. Zhang et al., “EdgeShard: Efficient LLM Inference via Collaborative Edge Computing,” IEEE Internet of Things, Early Access, 2024, pp. 1–13.
+[2] S. Ye et al., “Galaxy: A resource-efficient collaborative edge ai system for in-situ transformer inference” IEEE INFOCOM, 2024, pp. 1–10.
+[3] J. Xu et al., “On-Device Language Models: A Comprehensive Review,” arXiv Preprint, arXiv: 2409.00088, 2024 pp. 1–38.
+[4] S. Minaee et al., “Large Language Models: A Survey,” arXiv preprint, arXiv: 2402, 06196, pp. 1–43.
+[5] T. Shen et al., “Will LLMs Scaling Hit the Wall? Breaking Barriers via Distributed Resources on Massive Edge Devices,” arXiv preprint, arXiv: 2503.08223, 2025, pp. 1–23.
+[6] Y. Zheng et al., “A Review on Edge Large Language Models: Design, Execution, and Applications,” ACM Computing Surveys, vol. 57, no. 8, 2024, pp. 1–35.
+[7] R. Yi et al., “EdgeMoE: Fast On-Device Inference of MoEbased Large Language Models,” IEEE Trans. Mobile Computing, 2025, Early Access, pp. 1–16.
+[8] N. Xue et al., “WDMoE: Wireless Distributed Large Language Models with Mixture of Experts,” IEEE GLOBECOM, 2024, pp. 1–6.
+[9] L. Dai et al., “High-Speed Data Communication with Advanced Networks in Large Language Model Training,” IEEE Micro, vol. 44, no. 2, 2024, pp. 31–40.
+[10] J. Hu et al., “RDMA transports in datacenter networks: survey” IEEE Network, vol. 38, no. 6, 2024, pp. 380–87.
+[11] D. Xu et al., “LLMCad: Fast and Scalable On-Device Large Language Model Inference,” arXiv preprint, arXiv: 2309.04255, 2023, pp. 1–15.
+[12] G. Qu et al., “Mobile Edge Intelligence for Large Language Models: A Contemporary Survey,” arXiv preprint, arXiv: 2407.18921, 2024, pp. 1–37.
+[13] K. Zhang et al., “Communication-Efficient Distributed On-Device LLM Inference Over Wireless Networks,” arXiv preprint, arXiv: 2503.14882, 2025, pp. 1–16.
+[14] M. Hosseinzadeh and H. Khamfroush, “DILEMMA: Joint LLM Quantization and Distributed LLM Inference Over Edge Computing Systems,” arXiv preprint, arXiv: 2503.01704, 2025, pp. 1–7.
+[15] “MoE $\^{} 2$: Optimizing Collaborative Inference for Edge Large Language Models” arXiv preprint, arXiv: 2501.09410, 2025, pp. 1–15.

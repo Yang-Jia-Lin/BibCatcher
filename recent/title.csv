@@ -1,0 +1,123 @@
+cidx,citekey,title
+1,vaswani2017attention,Attention is all you need
+2,brown2020language,Language models are few-shot learners
+3,chowdhery2023palm,Palm: Scaling language modeling with pathways
+4,achiam2023gpt,Gpt-4 technical report
+5,jiang2024survey,A survey on large language models for code generation
+6,riquelme2021scaling,Scaling vision with sparse mixture of experts
+7,liu2021swin,Swin transformer: Hierarchical vision transformer using shifted windows
+8,lu2019vilbert,Vilbert: Pretraining task-agnostic visiolinguistic representations for vision-and-language tasks
+9,zhou2022learning,Learning to prompt for vision-language models
+10,zhu2023minigpt,Minigpt-4: Enhancing vision-language understanding with advanced large language models
+11,kaplan2020scaling,Scaling laws for neural language models
+12,wei2022emergent,Emergent abilities of large language models
+13,yoo2024hyperclova,Hyperclova x technical report
+14,hoffmann2022training,Training compute-optimal large language models
+15,jacobs1991adaptive,Adaptive mixtures of local experts
+16,jordan1994hierarchical,Hierarchical mixtures of experts and the EM algorithm
+17,collobert2001parallel,A parallel mixture of SVMs for very large scale problems
+18,rasmussen2001infinite,Infinite mixtures of Gaussian process experts
+19,shahbaba2009nonlinear,Nonlinear models using Dirichlet process mixtures.
+20,eigen2013learning,Learning factored representations in a deep mixture of experts
+21,theis2015generative,Generative image modeling using spatial lstms
+22,deisenroth2015distributed,Distributed gaussian processes
+23,aljundi2017expert,Expert gate: Lifelong learning with a network of experts
+24,shazeer2017outrageously,Outrageously large neural networks: The sparsely-gated mixture-of-experts layer
+25,lepikhin2020gshard,Gshard: Scaling giant models with conditional computation and automatic sharding
+26,jiang2024mixtral,Mixtral of experts
+27,team2024gemma,Gemma 2: Improving open language models at a practical size
+29,snowflake2024research,"Research. Snowflake Arctic: The best LLM for enterprise AI—efficiently intelligent, truly open"
+30,liu2024deepseek,"Deepseek-v2: A strong, economical, and efficient mixture-of-experts language model"
+31,yuksel2012twenty,Twenty years of mixture of experts
+32,fedus2022review,A review of sparse expert models in deep learning
+33,du2022glam,Glam: Efficient scaling of language models with mixture-of-experts
+34,fedus2022switch,Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity
+35,zoph2022st,St-moe: Designing stable and transferable sparse expert models
+36,xue2024openmoe,Openmoe: An early effort on open mixture-of-experts language models
+37,puigcerver2023sparse,From sparse to soft mixtures of experts
+38,muqeeth2023soft,Soft merging of experts with adaptive routing
+39,zhong2024lory,Lory: Fully differentiable mixture-of-experts for autoregressive language model pre-training
+40,zadouri2023pushing,Pushing mixture of experts to the limit: Extremely parameter efficient moe for instruction tuning
+41,wu2024omni,Omni-smola: Boosting generalist multimodal models with soft mixture of low-rank experts
+42,wang2022adamix,Adamix: Mixture-of-adaptations for parameter-efficient model tuning
+43,dou2023loramoe,Loramoe: Revolutionizing mixture of experts for maintaining world knowledge in language model alignment
+44,gou2023mixture,Mixture of cluster-conditional lora experts for vision-language instruction tuning
+45,luo2024moelora,Moelora: Contrastive learning guided mixture of experts on parameter-efficient fine-tuning for large language models
+46,wu2024mixture,Mixture of lora experts
+47,komatsuzaki2022sparse,Sparse upcycling: Training mixture-of-experts from dense checkpoints
+48,zhang2022moefication,Moefication: Transformer feed-forward layers are mixtures of experts
+49,zhu2024llama,Llama-moe: Building mixture-of-experts from llama with continual pre-training
+50,xue2022one,One student knows all experts know: From sparse to dense
+51,chen2022task,Task-specific expert pruning for sparse mixture-of-experts
+52,sukhbaatar2024branch,Branch-train-mix: Mixing expert llms into a mixture-of-experts llm
+53,chen2023lifelong,Lifelong language pretraining with distribution-specialized experts
+54,antoniak2024mixture,Mixture of tokens: Continuous moe through cross-example aggregation
+55,raposo2024mixture,Mixture-of-depths: Dynamically allocating compute in transformer-based language models
+56,xue2022go,Go wider instead of deeper
+57,tan2023sparse,Sparse universal transformer
+58,choi2023smop,Smop: Towards efficient and effective prompt tuning with sparse mixture-of-prompts
+59,ma2018modeling,Modeling task relationships in multi-task learning with multi-gate mixture-of-experts
+60,nie2021evomoe,Evomoe: An evolutional mixture-of-experts training framework via dense-to-sparse gate
+61,wu2024mixture,Mixture of lora experts
+62,pan2024dense,"Dense training, sparse inference: Rethinking training of mixture-of-experts language models"
+63,clark2022unified,Unified scaling laws for routed language models
+64,rajbhandari2022deepspeed,Deepspeed-moe: Advancing mixture-of-experts inference and training to power next-generation ai scale
+65,wei2024skywork,Skywork-moe: A deep dive into training techniques for mixture-of-experts language models
+66,lieber2024jamba,Jamba: A hybrid transformer-mamba language model
+67,dai2024deepseekmoe,Deepseekmoe: Towards ultimate expert specialization in mixture-of-experts language models
+68,yang2021m6,M6-t: Exploring sparse expert models and beyond
+69,chen2023mod,Mod-squad: Designing mixtures of experts as modular multi-task learners
+70,wu2024yuan,Yuan 2.0-m32: Mixture of experts with attention router
+71,shen2023moduleformer,ModuleFormer: Modularity Emerges from Mixture-of-Experts
+72,lewis2021base,"Base layers: Simplifying training of large, sparse models"
+73,hazimeh2021dselect,Dselect-k: Differentiable selection in the mixture of experts with applications to multi-task learning
+74,kim2021scalable,Scalable and efficient moe training for multitask multilingual models
+75,kudugunta2021beyond,Beyond distillation: Task-level mixture-of-experts for efficient inference
+76,costa2022no,No language left behind: Scaling human-centered machine translation
+77,chi2022representation,On the representation collapse of sparse mixture of experts
+78,zhu2022uni,Uni-perceiver-moe: Learning sparse generalist models with conditional moes
+79,dai2022stablemoe,Stablemoe: Stable routing strategy for mixture of experts
+80,roller2021hash,Hash layers for large sparse models
+81,zuo2021taming,Taming sparsely activated transformer with stochastic experts
+82,gururangan2022demix,Demix layers: Disentangling domains for modular language modeling
+83,fan2021beyond,Beyond english-centric multilingual machine translation
+84,ren2023pangu,Pangu-$\{$$\backslash$Sigma$\}$: Towards trillion parameter language model with sparse heterogeneous computing
+85,zhou2022mixture,Mixture-of-experts with expert choice routing
+86,zhou2023brainformers,Brainformers: Trading simplicity for efficiency
+87,mao2025hope,HOPE: A Memory-Based and Composition-Aware Framework for Zero-Shot Learning with Hopfield Network and Soft Mixture of Experts
+88,zhang2022mixture,Mixture of attention heads: Selecting attention heads per token
+89,shen2024jetmoe,Jetmoe: Reaching llama2 performance with 0.1 m dollars
+90,artetxe2021efficient,Efficient large scale language modeling with mixtures of experts
+91,lin2024moe,Moe-llava: Mixture of experts for large vision-language models
+92,diao2023mixture,Mixture-of-domain-adapters: Decoupling and injecting domain knowledge to pre-trained language models memories
+94,chen2024llava,Llava-mole: Sparse mixture of lora experts for mitigating data conflicts in instruction finetuning mllms
+95,zhu2023sira,Sira: Sparse mixture of low rank adaptation
+96,mao2022unipelt,Unipelt: A unified framework for parameter-efficient language model tuning
+97,gao2024higher,Higher layers need more lora experts
+98,zhang2024t,T-REX: Mixture-of-Rank-One-Experts with Semantic-aware Intuition for Multi-task Large Language Model Finetuning
+99,wu2022residual,Residual mixture of experts
+100,dua2022tricks,Tricks for training sparse translation models
+101,huang2023experts,Experts weights averaging: A new general training scheme for vision transformers
+102,li2022branch,Branch-train-merge: Embarrassingly parallel training of expert language models
+103,wang2023fusing,Fusing models with complementary expertise
+104,he2021fastmoe,Fastmoe: A fast mixture-of-expert training system
+105,hwang2023tutel,Tutel: Adaptive mixture-of-experts at scale
+107,he2022fastermoe,Fastermoe: modeling and optimizing training of large-scale dynamic pre-trained models
+108,singh2023hybrid,A hybrid tensor-expert-data parallelism approach to optimize mixture-of-experts training
+109,nie2022hetumoe,HetuMoE: An efficient trillion-scale mixture-of-expert distributed training system
+110,nie2023flexmoe,Flexmoe: Scaling large-scale sparse pre-trained model training via dynamic device placement
+111,zhai2023smartmoe,$\{$SmartMoE$\}$: Efficiently training $\{$Sparsely-Activated$\}$ models through combining offline and online parallelization
+112,gale2023megablocks,Megablocks: Efficient sparse training with mixture-of-experts
+113,tan2024scattered,Scattered mixture-of-experts implementation
+114,zheng2023pit,Pit: Optimization of dynamic sparse deep learning models via permutation invariant transformation
+115,yao2024exploiting,Exploiting inter-layer expert affinity for accelerating mixture-of-experts model inference
+116,chen2022ta,Ta-moe: Topology-aware large scale mixture-of-expert training
+117,zhang2024mpmoe,Mpmoe: Memory efficient moe for pre-trained models with adaptive pipeline parallelism
+118,jiang2024lancet,Lancet: Accelerating mixture-of-experts training via whole graph computation-communication overlapping
+119,cai2024shortcut,Shortcut-connected expert parallelism for accelerating mixture-of-experts
+120,hwang2024pre,Pre-gated moe: An algorithm-system co-design for fast and scalable mixture-of-expert inference
+121,yi2023edgemoe,Edgemoe: Fast on-device inference of moe-based large language models
+122,zhang2023robust,Robust mixture-of-expert training for convolutional neural networks
+123,chowdhury2023patch,Patch-level routing in mixture-of-experts is provably sample-efficient for convolutional neural networks
+124,tang2020progressive,Progressive layered extraction (ple): A novel multi-task learning (mtl) model for personalized recommendations
+125,jiang2023adamct,AdaMCT: adaptive mixture of CNN-transformer for sequential recommendation

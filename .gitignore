@@ -1,14 +1,6 @@
 **/__pycache__/
 
-base/*
-!base/CCF.csv
-output/
-input/
-recent/
-
 *.html
 *.ipynb
-config.yaml
 *.log
-
 .idea
