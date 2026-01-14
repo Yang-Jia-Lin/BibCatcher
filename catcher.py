@@ -1,4 +1,5 @@
 # %%
+import random
 import re
 from collections import namedtuple
 import pandas as pd
@@ -46,7 +47,7 @@ check_environment()
 
 print("Loading Zotero database...")
 if os.path.exists(zotero_bib_path):
-    with open(zotero_bib_path, "r") as f:
+    with open(zotero_bib_path, "r", encoding="utf-8") as f:
         ZDF = pd.DataFrame(bibtexparser.load(f).entries)  # Zotero DataFrame
 else:
     ZDF = None
@@ -67,7 +68,7 @@ recent_dir = ROOT_DIR / 'recent'
 if txt_file_path.exists():
     CITEKEY = source
     print(f'Reading reference list from file: {txt_file_path}')
-    with open(txt_file_path, 'r') as f:
+    with open(txt_file_path, 'r', encoding="utf-8") as f:
         cites = f.read()
         cites = cites.replace('\n', ' ').strip(' \n') + ' [00]'
         cite_list = re.findall(r'\[\d+\].*?(?= \[\d+\])', cites)
@@ -76,7 +77,7 @@ else:
     net_data = get_refs_from_url(source)
     cite_list = net_data["cite_list"]
     title_query_txt_path = recent_dir / "title_query.txt"
-    with open(title_query_txt_path, 'w') as f:
+    with open(title_query_txt_path, 'w', encoding="utf-8") as f:
         f.write("\n".join(cite_list))
     print(f"save title to {str(title_query_txt_path.relative_to(ROOT_DIR))}")
 
@@ -120,11 +121,11 @@ if not args.force:
 
 last_fail_ignore = []
 if fail_ignore_path.exists():
-    with open(fail_ignore_path, 'r') as f:
+    with open(fail_ignore_path, 'r', encoding="utf-8") as f:
         last_fail_ignore = f.read().strip("\n").split('\n')
 last_fail_try = []
 if fail_try_path.exists():
-    with open(fail_try_path, "r") as f:
+    with open(fail_try_path, "r", encoding="utf-8") as f:
         last_fail_try = f.read().strip("\n").split('\n')
 
 Cite = namedtuple("Cite", "citekey cidx title")
@@ -184,8 +185,20 @@ while i < len(cite_list):
         # check whether the paper exists in base
         duplicate_cites = base_df[base_df.title.apply(
             lambda t: is_same_item(t, cite))]
-        duplicate_cites = duplicate_cites[duplicate_cites.citekey.apply(
-            lambda k: re.match("^[^\d]+", k).group() in cite.lower())]
+
+        # 修改前：
+        # duplicate_cites = duplicate_cites[duplicate_cites.citekey.apply(
+        #             lambda k: re.match(r"^[^\d]+", k).group() in cite.lower())]
+
+        # 修改后（增加保护检查）：
+        if 'citekey' in duplicate_cites.columns:
+            duplicate_cites = duplicate_cites[duplicate_cites.citekey.apply(
+                lambda k: re.match(r"^[^\d]+", str(k)).group() in cite.lower() if re.match(r"^[^\d]+",
+                                                                                           str(k)) else False
+            )]
+        else:
+            duplicate_cites = pd.DataFrame()  # 如果没这一列，就当做没有重复
+
         if len(duplicate_cites) != 0:
             dc = duplicate_cites.reset_index()
             # titles[cidx] = dc.title[0]
@@ -195,6 +208,11 @@ while i < len(cite_list):
             continue
 
         # query google scholar
+        # 随机等待 5 到 15 秒，降低被封概率
+        wait_time = random.uniform(5, 15)
+        print(f"Waiting for {wait_time:.2f}s to avoid 429 error...")
+        time.sleep(wait_time)
+
         bibs_query = crazy_query(cite)
 
         if len(bibs_query) == 0:  # empty output
@@ -248,10 +266,10 @@ while i < len(cite_list):
 #                收尾工作
 # =======================================
 
-with open(output_dir / 'all_ref.bib', 'a+') as f:
+with open(output_dir / 'all_ref.bib', 'a+', encoding="utf-8") as f:
     f.write('\n'.join(BIBs))
 
-with open(output_dir / 'title.txt', 'w') as f:
+with open(output_dir / 'title.txt', 'w', encoding="utf-8") as f:
     f.write('\n'.join(cite_list))
 
 with open(output_dir / 'fail_try.txt', 'w', encoding='utf-8') as f:
@@ -272,7 +290,7 @@ if len(results) > 0:
     title_df = title_df.sort_values('cidx')
     title_df.to_csv(title_csv_path, index=False)
 
-    with open(output_dir / "zotero.md", 'w') as f:
+    with open(output_dir / "zotero.md", 'w', encoding="utf-8") as f:
         f.write("\n".join([
             f"- [{row.cidx}: {row.title}](zotero://select/items/@{row.citekey})"
             for _, row in title_df.iterrows()
@@ -283,7 +301,10 @@ shutil.copytree(output_dir, 'recent')
 
 # %%
 base_df = pd.read_csv(base_all_csv_path)
-base_df.citekey.fillna("", inplace=True)
+# 修改前：
+# base_df.citekey.fillna("", inplace=True)
+# 修改后（Pandas 3.0 推荐写法）：
+base_df['citekey'] = base_df['citekey'].fillna("")
 new_cites = []
 for cite in results:
     subdf = base_df[(base_df.citekey == cite.citekey)
@@ -311,12 +332,12 @@ all_df.to_csv(base_all_csv_path, index=False)
 
 print("\n", "==" * 30, sep='')
 print("CITEKEY", CITEKEY)
-with open(base_dir / 'history.txt', 'a+') as f:
+with open(base_dir / 'history.txt', 'a+', encoding="utf-8") as f:
     f.write(CITEKEY + "\n")
 # %%
 
 if len(new_BIBs) > 0:
-    with open(output_dir / 'new_refs.bib', 'w') as f:
+    with open(output_dir / 'new_refs.bib', 'w', encoding="utf-8") as f:
         # f.write('\n'.join(bibs))
         f.write('\n'.join(new_BIBs))
     cprint(f"There are {len(new_BIBs)} new bibs", c=Color.green)

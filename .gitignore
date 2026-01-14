@@ -10,3 +10,5 @@ recent/
 *.ipynb
 config.yaml
 *.log
+
+.idea
